@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">                 <!--font-family: 'Space Mono', monospace;-->
+    <script src="https://kit.fontawesome.com/623a8ddfdf.js" crossorigin="anonymous"></script>
+    <title>Frontend Mentor | Github User Search App</title>
+</head>
+<body>
+    
+    <section class="top-header-light-dark">
+        <div class="header">
+            <h1>devfinder</h1>
+        </div>
+
+        <div class="light-dark-mode">
+            <button class="light-mode">
+                LIGHT
+                <img src="images/icon-sun.svg" alt="light mode sun">
+            </button>
+            
+            <button class="dark-mode">
+                DARK
+                <img src="images/icon-moon.svg" alt="dark mode moon">
+            </button>
+        </div>
+    </section>
+
+
+    <section class="github-search-user">
+        <img src="images/icon-search.svg" alt="search icon">
+        <input type="text" placeholder="Search Github username...">
+        <button class="user-search">Search</button>
+    </section>
+
+    <section class="github-user-information-card">
+
+        <section class="profile-picture-left-side">
+            <img class="github-profile-picture" src="images/image-user-placeholder.png" alt="placeholder for profile picture">
+        </section>
+
+        <section class="github-stats-right-side">
+
+            <section class="card-top">
+                <section class="name-and-bio">
+                    <h2 class="actual-name">User's name</h2>
+                    <div class="user-join-date">Joined on...</div>
+                </section>
+
+                <h3 class="username">@Username</h3>
+                <p class="biography">Biography area</p>
+            </section>
+
+            <section class="card-middle">
+                <section class="repos-followers-following-card">
+                    <div class="user-count">
+                        <h3>Repos</h3>
+                        <span class="repos-amount"></span>
+                    </div>
+
+                    <div class="user-count">
+                        <h3>Followers</h3>
+                        <span class="followers-amount"></span>
+                    </div>
+
+                    <div class="user-count">
+                        <h3>Following</h3>
+                        <span class="following-amount"></span>
+                    </div>
+                </section>  
+            </section>
+
+            <section class="card-bottom">
+                <section class="user-links">
+                    <img src="images/icon-location.svg" alt="user location">
+                    <p class="location"></p>
+                </section>
+
+                <section class="user-links">
+                    <img src="images/icon-website.svg" alt="user website">
+                    <a href="" target="_blank" class="website-link"></a>
+                </section>
+                    
+                <section class="user-links">
+                    <img src="images/icon-twitter.svg" alt="user twitter account">
+                    <a href="" target="_blank" class="twitter-link"></a>
+                </section>
+
+                <section class="user-links">
+                    <img src="images/icon-company.svg" alt="user company">
+                    <p class="company"></p>
+                </section>
+            </section>
+
+
+        </section>
+    </section>
+    
+</body>
+</html>
