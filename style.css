@@ -6,5 +6,67 @@
     background-color: #141c2f;
     color: white;
     font-family: 'Space Mono', monospace;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    min-height: 100vh;
   }
+
+  .header-theme-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 75%;
+  }
+
+  .toggle-color-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    letter-spacing: 1px;
+  }
+
+  .toggle-text-light {
+    padding-right: 1.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+  }
+
+  .github-search-user-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31.5%;
+    height: 4.8vh;
+
+    border-radius: 15px;
+    background-color: #1e2a47;
+  }
+
+  input {
+    flex: 1;
+
+    border: none;
+    background-color: #1e2a47;
+  
+
+    
+    padding: 6px 0;
+    
+    font-size: 1.125rem;
+  }
+
+  .input-bg-img {
+    background-image: url(images/icon-search.svg);
+    background-repeat: no-repeat;
+  }
+
+  
 

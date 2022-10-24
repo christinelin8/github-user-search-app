@@ -11,23 +11,29 @@
     <script src="https://kit.fontawesome.com/623a8ddfdf.js" crossorigin="anonymous"></script>
     <title>Frontend Mentor | Github User Search App</title>
 </head>
-<body>
+<body id="body-toggle">
     
-    <section class="top-header-light-dark"> 
-        <h1 class="logo">devfinder</h1>
-        
-        <div class="toggle-color-btn color">
+    <section class="header-theme-container"> 
+        <h1 class="logo">devfinder</h1> 
+        <div class="toggle-color-btn theme-switch">
             <h3 class="toggle-text-light">LIGHT</h3>
-            <img src="images/icon-sun.svg" alt class="light-icon-img">
-        </div>
+            <img class="light-icon" src="images/icon-sun.svg" alt="light icon img">
+        </div>    
+        
     </section>
 
 
-    <section class="github-search-user">
-        <img src="images/icon-search.svg" alt="search icon">
-        <input type="text" placeholder="Search Github username...">
+    <form class="github-search-user-box">
+        <input 
+            id="search-input"
+            class="input-bg-img"
+            type="text" 
+            placeholder="Search Github username..."
+            value=""
+        />
+        
         <button class="user-search">Search</button>
-    </section>
+    </form>
 
     <section class="github-user-information-card">
 
