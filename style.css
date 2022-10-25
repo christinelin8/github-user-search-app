@@ -89,7 +89,6 @@
 
   .github-user-information-card {
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
 
     border-radius: 15px;
@@ -97,15 +96,34 @@
 
     width: 31.5%;
     margin: 25px 0px;
+
     }
 
-    .github-profile-picture {
+  .github-profile-picture {
       width: 117px;
       height:117px;
       border-radius: 50%;
 
-      margin-top: 45px;
-      margin-left: -110px;
+      margin: 45px 40px;
+    }
+
+    .github-stats-right-side {
+      flex: 1;
+      margin-top: 22px;
+    }
+
+  .card-top {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .name-and-bio {
+      display: flex;
+      align-items: center;
+    }
+
+    .actual-name {
+      padding-right: 20%;
     }
 
   
