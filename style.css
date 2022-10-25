@@ -96,7 +96,6 @@
 
     width: 31.5%;
     margin: 25px 0px;
-
     }
 
   .github-profile-picture {
@@ -120,12 +119,39 @@
     .name-and-bio {
       display: flex;
       align-items: center;
+      margin-bottom: 0;
     }
 
     .actual-name {
-      padding-right: 20%;
+      padding-right: 30%;
+      margin-bottom: 0;
     }
 
+    .username {
+      margin-top: 0;
+      margin-bottom: 2%;
+      
+      color: #175fff;
+      font-weight: 200;
+      font-size: 1.125rem;
+      letter-spacing: 1px;
+    }
+
+    .user-join-date {
+      margin-top: 20px;
+    }
+
+    .repos-followers-following-card {
+      display: flex;
+      justify-content: space-between;
+  
+      background-color: #141d2f;
+      border-radius: 15px; 
+    }
+
+    .user-count {
+      padding: 5px 15px;
+    }
   
 
   
