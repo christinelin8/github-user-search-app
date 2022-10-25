@@ -52,21 +52,63 @@
 
   input {
     flex: 1;
+    padding: 6px 0px;   /*top bottom, left right*/
 
+    font-size: 1.125rem;
+    font-family: 'Space Mono', monospace;
+    
     border: none;
     background-color: #1e2a47;
-  
+  }
 
-    
-    padding: 6px 0;
-    
-    font-size: 1.125rem;
+  input::placeholder {
+    color: white;
   }
 
   .input-bg-img {
     background-image: url(images/icon-search.svg);
     background-repeat: no-repeat;
+    background-position: left 15px center;
+    padding-left: 4rem;
   }
+
+  .user-search {
+    width: 13%;
+    height: 3.4vh;
+    
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: white;
+    background-color: #0079fe;
+
+    border: none;
+    border-radius: 10px;
+
+    margin-right: 10px;
+  }
+
+  .github-user-information-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    border-radius: 15px;
+    background-color: #1e2a47;
+
+    width: 31.5%;
+    margin: 25px 0px;
+    }
+
+    .github-profile-picture {
+      width: 117px;
+      height:117px;
+      border-radius: 50%;
+
+      margin-top: 45px;
+      margin-left: -110px;
+    }
+
+  
 
   
 
