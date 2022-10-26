@@ -139,6 +139,7 @@
 
     .user-join-date {
       margin-top: 20px;
+      font-size: 1rem;
     }
 
     .repos-followers-following-card {
@@ -170,9 +171,23 @@
 
     .card-bottom {
       display: flex;
-      
-      margin: 10px 10px;
-      border: 1px solid red;
+
+      margin-bottom: 30px;
+    }
+
+    .duo {
+      flex: 1;
+      padding-left: 5px;
+    }
+
+    .user-links {
+      display: flex;
+      height: 20px;
+      color: white;
+    }
+
+    .twitter {
+      margin-bottom: 18px;
     }
   
 
